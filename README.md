@@ -16,6 +16,8 @@ Run the following command in your terminal/command prompt:
 
 Bash
 pip install python-nmap requests mitreattack-python stix2
+
+
 3. How to Use
 Run with Permissions: Nmap often requires root or administrator privileges to perform advanced service detection (-sV).
 
