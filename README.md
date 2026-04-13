@@ -15,6 +15,7 @@ Step 2: Install Python Libraries
 Run the following command in your terminal/command prompt:
 
 Bash
+
 pip install python-nmap requests mitreattack-python stix2
 
 
