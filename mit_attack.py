@@ -1,4 +1,4 @@
-import nmap
+import nmap as nm
 import requests
 import json
 import socket
@@ -9,7 +9,7 @@ import csv
 
 class AdvancedSecurityScanner:
     def __init__(self):
-        self.nm = nmap.PortScanner()
+        self.nm = nm.PortScanner
         
         # Note: In a production environment, download this file locally 
         # to avoid slow network lookups during every initialization.
