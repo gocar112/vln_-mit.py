@@ -1,3 +1,4 @@
+import nmap as nm
 import nmap
 import requests
 import json
@@ -9,8 +10,8 @@ import csv
 
 class AdvancedSecurityScanner:
     def __init__(self):
-        self.nm = nmap.PortScanner()
-        
+        self.nm = nmap.PortScanner
+
         # Note: In a production environment, download this file locally 
         # to avoid slow network lookups during every initialization.
         self.stix_url = "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/enterprise-attack/enterprise-attack.json"
